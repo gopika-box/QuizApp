@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <title>Quiz App</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Finlandica+Text:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+        
+        .orbitron{
+            font-family: "Orbitron",sans-serif;
+        }
+        .finlandica{
+            font-family: "Finlandica Text",sans-serif;
+        }
+        </style>
+        
+   
+</head>
+<body class="bg-indigo-900 min-h-screen w-full flex items-center justify-center p-4">
+
+
+        <div class="app bg-white w-full max-w-[600px] flex flex-col gap-5 rounded-md p-2.5 md:p-6 shadow-xl">
+        <h2 class="orbitron text-2xl font-semibold text-start">Simple Quiz</h2>
+       <hr class="border-slate-500 my-1">
+        <div class="quiz w-full mr-5 flex flex-col">
+            <h4 id="question" class="finlandica font-semibold text-lg text-slate-900 text-left">Question goes here</h4>
+            <div class="answer-buttons flex flex-col gap-3 mt-4">
+                <button class="Obtn finlandica border border-slate-400 hover:bg-sky-300 text-left pl-2">Option 1</button>
+                <button class="Obtn finlandica border border-slate-400 hover:bg-sky-300 text-left pl-2">Option 2</button>
+                <button class="Obtn finlandica border border-slate-400 hover:bg-sky-300 text-left pl-2">Option 3</button>
+                <button class="Obtn finlandica border border-slate-400 hover:bg-sky-300 text-left pl-2">Option 4</button>
+            </div>
+            <button id="nxtBtn" class="hidden finlandica border mt-4 self-center text-center w-full bg-indigo-400 hover:bg-indigo-600 text-white font-semibold rounded-lg transition-colors py-2">Next</button>
+        </div>
+    </div>
+
+
+    
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
