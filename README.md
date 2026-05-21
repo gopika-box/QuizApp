@@ -3,6 +3,6 @@ A lightweight, clean, and responsive Quiz App with 10 questions to answer and 4 
 And you get your score at the end.
 
 ## 🚀 Live Demo
-Check out the live application here: [Note App Live](https://gopika-box.github.io/QuizApp/)
+Check out the live application here: [Quiz App Live](https://gopika-box.github.io/QuizApp/)
 
 ![alt text](ss.png)
